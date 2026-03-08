@@ -1,0 +1,1 @@
+Reading JSON file from: D:\Playwright Batch\Credo\Playwright Batch1\SalesForceFramework\src\data\/loginData.json

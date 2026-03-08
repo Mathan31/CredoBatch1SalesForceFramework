@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2912","Create a new lead in Salesforce","chromium","Sun Mar 08 15:10:28 IST 2026","failed","Sun Mar 08 15:10:31 IST 2026","","leads\leads.spec.ts","",""
+"","5701","Login to salesforce with In valid credential and validate the erroe msg","chromium","Sun Mar 08 15:10:56 IST 2026","passed","Sun Mar 08 15:11:02 IST 2026","","login\login.spec.ts","",""
+"","30155","Login to salesforce with valid credential","chromium","Sun Mar 08 15:10:26 IST 2026","passed","Sun Mar 08 15:10:56 IST 2026","","login\login.spec.ts","",""

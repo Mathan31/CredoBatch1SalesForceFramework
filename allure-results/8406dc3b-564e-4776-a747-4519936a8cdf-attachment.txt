@@ -1,0 +1,18 @@
+========== EXCEPTION OCCURRED ==========
+Message : locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('button[title="App Launcher"]') to be visible
+    - waiting for" https://credosystemz2-dev-ed.my.salesforce.com/lightning/setup/SetupOneHome/home" navigation to finish...
+    - navigated to "https://credosystemz2-dev-ed.lightning.force.com/lightning/setup/SetupOneHome/home"
+
+Stack   : locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('button[title="App Launcher"]') to be visible
+    - waiting for" https://credosystemz2-dev-ed.my.salesforce.com/lightning/setup/SetupOneHome/home" navigation to finish...
+    - navigated to "https://credosystemz2-dev-ed.lightning.force.com/lightning/setup/SetupOneHome/home"
+
+    at ElementActions.click (D:\Playwright Batch\Credo\Playwright Batch1\SalesForceFramework\src\wrappers\elementActions.ts:18:21)
+    at DashboardPage.clickAppLauncher (D:\Playwright Batch\Credo\Playwright Batch1\SalesForceFramework\src\pages\dashboardPage.ts:18:31)
+    at D:\Playwright Batch\Credo\Playwright Batch1\SalesForceFramework\src\tests\leads\leads.spec.ts:17:23
+========================================
+Screenshot capture failed

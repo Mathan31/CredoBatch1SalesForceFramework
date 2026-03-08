@@ -1,0 +1,351 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - generic [ref=e2]:
+      - generic [ref=e3]:
+        - link "Skip to Navigation" [ref=e4] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - link "Skip to Main Content" [ref=e5] [cursor=pointer]:
+          - /url: javascript:void(0);
+        - generic [ref=e9]:
+          - generic [ref=e13]:
+            - button "Toggle Panel" [ref=e17] [cursor=pointer]:
+              - img [ref=e19]
+              - img [ref=e28]
+            - paragraph [ref=e42]: Developer Edition
+          - button "Show menu" [ref=e51] [cursor=pointer]:
+            - img [ref=e53]
+            - generic [ref=e56]: Show menu
+        - generic [ref=e57]:
+          - button "Search" [ref=e63]:
+            - img [ref=e65]
+            - text: Search...
+          - navigation "Global Header" [ref=e68]:
+            - list [ref=e70]:
+              - listitem [ref=e71]:
+                - group [ref=e72]:
+                  - button "Add favorite" [ref=e74] [cursor=pointer]:
+                    - generic [ref=e75]:
+                      - img [ref=e79]
+                      - tooltip "Add favorite"
+                  - button "Favorites list" [ref=e83] [cursor=pointer]:
+                    - generic [ref=e84]:
+                      - img [ref=e88]
+                      - tooltip "Favorites list"
+              - listitem [ref=e91]:
+                - button "Global Actions" [ref=e97] [cursor=pointer]:
+                  - generic [ref=e98]:
+                    - img [ref=e102]
+                    - tooltip "Global Actions"
+              - listitem [ref=e105]:
+                - button "Guidance Center" [ref=e107] [cursor=pointer]:
+                  - generic [ref=e108]:
+                    - img [ref=e112]
+                    - tooltip "Guidance Center"
+              - listitem [ref=e115]:
+                - button "Salesforce Help" [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]:
+                    - img [ref=e123]
+                    - tooltip "Salesforce Help"
+              - listitem [ref=e126]:
+                - button "Setup" [ref=e132] [cursor=pointer]:
+                  - generic [ref=e133]:
+                    - img [ref=e137]
+                    - tooltip "Setup"
+              - listitem [ref=e140]:
+                - button "Notifications" [ref=e143] [cursor=pointer]:
+                  - generic [ref=e144]:
+                    - img [ref=e149]
+                    - tooltip "Notifications"
+              - listitem [ref=e153]:
+                - button "View profile" [ref=e156] [cursor=pointer]:
+                  - generic [active] [ref=e157]:
+                    - tooltip "View profile"
+      - generic [ref=e161]:
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - navigation "App" [ref=e167]:
+              - button "App Launcher" [ref=e169] [cursor=pointer]:
+                - generic [ref=e180]: App Launcher
+            - heading "Sales" [level=1] [ref=e181]:
+              - generic "Sales" [ref=e182]
+          - navigation "Global" [ref=e185]:
+            - list [ref=e186]:
+              - listitem [ref=e187]:
+                - link "Home" [ref=e188] [cursor=pointer]:
+                  - /url: /lightning/page/home
+                  - generic [ref=e189]: Home
+              - listitem [ref=e190]:
+                - link "Opportunities" [ref=e191] [cursor=pointer]:
+                  - /url: /lightning/o/Opportunity/home
+                  - generic [ref=e192]: Opportunities
+                - button "Opportunities List" [ref=e196] [cursor=pointer]:
+                  - img [ref=e200]
+                  - generic [ref=e203]: Opportunities List
+              - listitem [ref=e204] [cursor=pointer]:
+                - link "Leads" [ref=e205]:
+                  - /url: /lightning/o/Lead/home
+                  - generic [ref=e206]: Leads
+                - button "Leads List" [ref=e210]:
+                  - img [ref=e214]
+                  - generic [ref=e217]: Leads List
+              - listitem [ref=e218]:
+                - link "Tasks" [ref=e219] [cursor=pointer]:
+                  - /url: /lightning/o/Task/home
+                  - generic [ref=e220]: Tasks
+                - button "Tasks List" [ref=e224] [cursor=pointer]:
+                  - img [ref=e228]
+                  - generic [ref=e231]: Tasks List
+              - listitem [ref=e232]:
+                - link "Files" [ref=e233] [cursor=pointer]:
+                  - /url: /lightning/o/ContentDocument/home
+                  - generic [ref=e234]: Files
+                - button "Files List" [ref=e238] [cursor=pointer]:
+                  - img [ref=e242]
+                  - generic [ref=e245]: Files List
+              - listitem [ref=e246]:
+                - link "Accounts" [ref=e247] [cursor=pointer]:
+                  - /url: /lightning/o/Account/home
+                  - generic [ref=e248]: Accounts
+                - button "Accounts List" [ref=e252] [cursor=pointer]:
+                  - img [ref=e256]
+                  - generic [ref=e259]: Accounts List
+              - listitem [ref=e260]:
+                - link "Contacts" [ref=e261] [cursor=pointer]:
+                  - /url: /lightning/o/Contact/home
+                  - generic [ref=e262]: Contacts
+                - button "Contacts List" [ref=e266] [cursor=pointer]:
+                  - img [ref=e270]
+                  - generic [ref=e273]: Contacts List
+              - listitem [ref=e274]:
+                - link "Campaigns" [ref=e275] [cursor=pointer]:
+                  - /url: /lightning/o/Campaign/home
+                  - generic [ref=e276]: Campaigns
+                - button "Campaigns List" [ref=e280] [cursor=pointer]:
+                  - img [ref=e284]
+                  - generic [ref=e287]: Campaigns List
+              - listitem [ref=e288]:
+                - link "Dashboards" [ref=e289] [cursor=pointer]:
+                  - /url: /lightning/o/Dashboard/home
+                  - generic [ref=e290]: Dashboards
+                - button "Dashboards List" [ref=e294] [cursor=pointer]:
+                  - img [ref=e298]
+                  - generic [ref=e301]: Dashboards List
+              - listitem [ref=e302]:
+                - link "Reports" [ref=e303] [cursor=pointer]:
+                  - /url: /lightning/o/Report/home
+                  - generic [ref=e304]: Reports
+                - button "Reports List" [ref=e308] [cursor=pointer]:
+                  - img [ref=e312]
+                  - generic [ref=e315]: Reports List
+              - listitem [ref=e316]:
+                - link "Chatter" [ref=e317] [cursor=pointer]:
+                  - /url: /lightning/page/chatter
+                  - generic [ref=e318]: Chatter
+              - listitem [ref=e319]:
+                - button "Show more navigation items" [ref=e321] [cursor=pointer]:
+                  - generic [ref=e322]: More
+                  - img [ref=e326]
+                  - generic [ref=e329]: Show more navigation items
+              - listitem [ref=e330]:
+                - button "Edit nav items" [ref=e332] [cursor=pointer]:
+                  - img [ref=e334]
+                  - generic [ref=e337]: Edit nav items
+        - main [ref=e339]:
+          - generic [ref=e355]:
+            - generic [ref=e364]:
+              - generic [ref=e365]:
+                - heading "Lead Kautzer" [level=1] [ref=e373]:
+                  - generic [ref=e375]: Lead
+                  - generic [ref=e376]: Kautzer
+                - button "Follow" [ref=e381] [cursor=pointer]:
+                  - generic [ref=e382]:
+                    - img [ref=e386]
+                    - text: Follow
+                - generic [ref=e391]:
+                  - generic "New Case" [ref=e392]:
+                    - button "New Case" [ref=e397] [cursor=pointer]
+                  - generic "New Note" [ref=e398]:
+                    - button "New Note" [ref=e403] [cursor=pointer]
+                  - generic "Submit for Approval" [ref=e404]:
+                    - button "Submit for Approval" [ref=e409] [cursor=pointer]
+                  - button "Show more actions" [ref=e411] [cursor=pointer]:
+                    - img [ref=e413]
+                    - generic [ref=e416]: Show more actions
+              - generic [ref=e417]:
+                - generic [ref=e419]:
+                  - paragraph [ref=e420]: Title
+                  - paragraph
+                - generic [ref=e422]:
+                  - paragraph [ref=e423]: Company
+                  - paragraph [ref=e424]:
+                    - generic [ref=e425]: Buckridge - Waters
+                - generic [ref=e427]:
+                  - button "Phone (2)" [ref=e428] [cursor=pointer]:
+                    - paragraph [ref=e429]:
+                      - text: Phone (2)
+                      - img [ref=e434]
+                  - list [ref=e437]:
+                    - generic [ref=e440]:
+                      - paragraph
+                - generic [ref=e442]:
+                  - paragraph [ref=e443]: Email
+                  - paragraph
+            - article [ref=e451]:
+              - generic [ref=e452]:
+                - heading "Path" [level=2] [ref=e453]
+                - generic [ref=e456]:
+                  - listbox "Path Options" [ref=e461]:
+                    - option "Open - Not Contacted" [selected] [ref=e462] [cursor=pointer]:
+                      - generic [ref=e463]: Open - Not Contacted
+                    - option "Working - Contacted" [ref=e464] [cursor=pointer]:
+                      - generic [ref=e465]: Working - Contacted
+                    - option "Closed - Not Converted" [ref=e466] [cursor=pointer]:
+                      - generic [ref=e467]: Closed - Not Converted
+                    - option "Converted" [ref=e468] [cursor=pointer]:
+                      - generic [ref=e469]: Converted
+                  - button "Mark Status as Complete" [ref=e471] [cursor=pointer]:
+                    - img [ref=e475]
+                    - generic [ref=e478]: Mark Status as Complete
+            - generic [ref=e479]:
+              - generic [ref=e485]:
+                - heading "Tabs" [level=2] [ref=e486]
+                - generic "Tabs" [ref=e487]:
+                  - generic [ref=e488]:
+                    - heading "Tabs" [level=2] [ref=e489]
+                    - tablist "Tabs" [ref=e491]:
+                      - tab "Activity" [selected] [ref=e492] [cursor=pointer]
+                      - tab "Details" [ref=e493] [cursor=pointer]
+                      - tab "Chatter" [ref=e494] [cursor=pointer]
+                    - tabpanel "Activity" [ref=e497]:
+                      - generic [ref=e503]:
+                        - heading "Activity Publisher" [level=2] [ref=e504]
+                        - generic [ref=e505]:
+                          - group [ref=e506]:
+                            - generic [ref=e508]:
+                              - button "New Task" [ref=e509] [cursor=pointer]:
+                                - generic [ref=e511]:
+                                  - img [ref=e513]
+                                  - generic [ref=e516]: New Task
+                                - generic [ref=e517]: New Task
+                              - button "No Additional New Task Actions" [disabled] [ref=e519]:
+                                - generic:
+                                  - img
+                                - generic: No Additional New Task Actions
+                          - group [ref=e520]:
+                            - generic [ref=e522]:
+                              - button "Log a Call" [ref=e523] [cursor=pointer]:
+                                - generic [ref=e525]:
+                                  - img [ref=e527]
+                                  - generic [ref=e530]: Log a Call
+                                - generic [ref=e531]: Log a Call
+                              - button "More Log a Call Actions" [ref=e533] [cursor=pointer]:
+                                - img [ref=e535]
+                                - generic [ref=e538]: More Log a Call Actions
+                          - group [ref=e539]:
+                            - generic [ref=e541]:
+                              - button "New Event" [ref=e542] [cursor=pointer]:
+                                - generic [ref=e544]:
+                                  - img [ref=e546]
+                                  - generic [ref=e549]: New Event
+                                - generic [ref=e550]: New Event
+                              - button "More New Event Actions" [ref=e552] [cursor=pointer]:
+                                - img [ref=e554]
+                                - generic [ref=e557]: More New Event Actions
+                          - group [ref=e558]:
+                            - generic [ref=e560]:
+                              - button "Email" [ref=e561] [cursor=pointer]:
+                                - generic [ref=e563]:
+                                  - img [ref=e565]
+                                  - generic [ref=e568]: Email
+                                - generic [ref=e569]: Email
+                              - button "More Email Actions" [ref=e571] [cursor=pointer]:
+                                - img [ref=e573]
+                                - generic [ref=e576]: More Email Actions
+                        - heading "Activity Timeline" [level=2] [ref=e577]
+                        - generic [ref=e579]:
+                          - link "Skip to the bottom of the activity timeline" [ref=e580] [cursor=pointer]:
+                            - /url: javascript:void(0);
+                          - generic [ref=e582]:
+                            - generic [ref=e584]: "Filters: All time • All activities • All types"
+                            - button "Timeline Settings" [ref=e585] [cursor=pointer]:
+                              - img [ref=e587]
+                              - generic [ref=e590]: Timeline Settings
+                          - generic [ref=e593]:
+                            - button "Refresh" [ref=e594] [cursor=pointer]
+                            - text: •
+                            - button "Expand All. Show details for activities in the timeline." [ref=e595] [cursor=pointer]: Expand All
+                            - text: •
+                            - button "View All" [ref=e596] [cursor=pointer]
+                          - generic [ref=e598]:
+                            - heading "Upcoming & Overdue" [level=3] [ref=e599]:
+                              - button "Upcoming & Overdue" [expanded] [ref=e600] [cursor=pointer]:
+                                - img [ref=e602]
+                                - text: Upcoming & Overdue
+                            - generic [ref=e605]:
+                              - generic:
+                                - list
+                              - generic [ref=e608]:
+                                - text: No activities to show.
+                                - text: Get started by sending an email, scheduling a task, and more.
+                          - status [ref=e609]:
+                            - generic [ref=e611]:
+                              - img [ref=e615]
+                              - generic [ref=e618]: information
+                            - paragraph [ref=e620]: To change what's shown, try changing your filters.
+                          - button "Show All Activities" [ref=e622] [cursor=pointer]
+                          - link "Skip to the top of the activity timeline" [ref=e623] [cursor=pointer]:
+                            - /url: javascript:void(0);
+              - generic [ref=e630]:
+                - heading "Tabs" [level=2] [ref=e631]
+                - generic "Tabs" [ref=e632]:
+                  - generic [ref=e633]:
+                    - heading "Tabs" [level=2] [ref=e634]
+                    - tablist "Tabs" [ref=e636]:
+                      - tab "Related" [selected] [ref=e637] [cursor=pointer]
+                    - tabpanel "Related" [ref=e640]:
+                      - generic [ref=e641]:
+                        - article [ref=e646]:
+                          - generic [ref=e648]:
+                            - img [ref=e653]
+                            - heading "We found no potential duplicates of this Lead." [level=2] [ref=e657]:
+                              - generic "We found no potential duplicates of this Lead." [ref=e658]
+                        - article "Campaign History" [ref=e670]:
+                          - generic [ref=e671]:
+                            - heading "Campaign History (0)" [level=2] [ref=e677]:
+                              - link "Campaign History (0)" [ref=e678] [cursor=pointer]:
+                                - /url: /lightning/r/Lead/00QJ1000005DT04MAG/related/CampaignMembers/view
+                                - generic "Campaign History" [ref=e679]
+                                - generic "(0)" [ref=e680]
+                            - button "Show actions for Campaign History" [ref=e684] [cursor=pointer]:
+                              - generic [ref=e686]:
+                                - img [ref=e688]
+                                - generic [ref=e691]: Show actions for Campaign History
+      - generic:
+        - contentinfo "Utility Bar":
+          - list [ref=e695]:
+            - listitem [ref=e696]:
+              - button "To Do List" [ref=e699] [cursor=pointer]:
+                - img [ref=e703]
+                - generic [ref=e706]: To Do List
+    - generic [ref=e709]: View profile
+  - generic:
+    - generic [ref=e711]:
+      - generic [ref=e713]:
+        - img [ref=e715]
+        - generic [ref=e718]: Success notification.
+      - generic [ref=e719]:
+        - generic [ref=e722]:
+          - text: Lead "
+          - link "Kautzer" [ref=e723] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e724]: Kautzer
+          - text: "\" was created."
+        - generic [ref=e725]: Press Control + F6 to navigate to the next toast notification or focusable region.
+      - button "Close" [ref=e727] [cursor=pointer]:
+        - img [ref=e731]
+        - generic [ref=e734]: Close
+    - status [ref=e735]: Success notification.Lead "Kautzer" was created. Press Control + F6 to navigate to the next toast notification or focusable region.
+```
